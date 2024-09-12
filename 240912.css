@@ -31,7 +31,7 @@ header {
   width: 932px; height: 176px;
   box-sizing: border-box;
 }
-header .logo {
+header .log {
   display: flex;
   gap: 20px;
   padding: 20px;
@@ -42,23 +42,23 @@ header .logo a img {
   width: 90px;
   height: 90px;
 }
-header .logo .logo_font p {
+header .logo_font p {
   color: white;
 }
 
-header .logo .logo_font {
+header .logo_font {
   display: flex;
   flex-flow: column;
   justify-content: center;
 }
 
-header .logo .logo_font .kim {
+header .logo_font .kim {
   font-family: "Satisfy", cursive;
   font-weight: 400;
   font-size: 28px;
   font-style: normal;
 }
-header .logo .logo_font .cook {
+header .logo_font .cook {
   font-family: "Sevillana", cursive;
   font-weight: 400;
   font-size: 28px;
@@ -139,7 +139,6 @@ header .global_menu li:hover {
   font-weight: bold;
 }
 .contents .main_course strong {
-  font-weight: 16px;
   color: #e4010b;
   font-weight: bold;
 }
