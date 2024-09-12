@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**** body ****/
+html {
+  background: url(./image/bg.png) no-repeat;
+  background-size: cover;
+  height:  100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  width: 940px;
+  height: 833px;
+  box-sizing: border-box;
+  border: 4px solid #eeb0b0;
+  margin: 14px auto;
+  
+}
+
+/**** header ****/
+header {
+  background-color: #7d1e6a;
+  width: 932px; height: 176px;
+  box-sizing: border-box;
+}
+header .logo {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  height: 130px;
+  box-sizing: border-box;
+}
+header .logo a img {
+  width: 90px;
+  height: 90px;
+}
+header .logo .logo_font p {
+  color: white;
+}
+
+header .logo .logo_font {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+header .logo .logo_font .kim {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-size: 28px;
+  font-style: normal;
+}
+header .logo .logo_font .cook {
+  font-family: "Sevillana", cursive;
+  font-weight: 400;
+  font-size: 28px;
+  font-style: normal;
+  margin-top: 0.2rem;
+}
+
+header .global_menu {
+  background-color: #ffcd38;
+  display: flex;
+}
+header .global_menu li {
+  color :#7d1e6a;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  line-height: 46px;
+  height: 46px;
+  width: 100px;
+}
+header .global_menu li a {
+  display: block;
+  font-family: 'GmarketSansMedium';
+}
+
+header .global_menu li:hover {
+  background-color: #e4010b;
+  color: white;
+}
+
+/**** contents ****/
+.contents {
+
+  background-color: #f1eee9;
+  height: 615px;
+  display: flex;
+  flex-flow: row;
+  gap: 0;
+}
+
+/* contents_img */
+
+.contents .main_course {
+  font-family: 'GmarketSansMedium';
+  display: flex;
+  flex-flow: row wrap;
+  width: 650px;
+}
+
+.contents .main_course .main_img {
+  margin: 30px 0 30px 20px;
+  /* width: 308px; height: 238px; */
+  background-color: white;
+  border: #e4010b solid 1px;
+  box-sizing: border-box;
+  padding: 8px;
+
+}
+.contents .main_course .main_img figure img {
+  width: 290px; height: 190px; 
+}
+.contents .main_course .main_img figure em {
+  display: block;
+  text-align: right;
+  padding-top: 10px;
+  color: #9c999c;
+}
+
+
+.contents .main_course .main_course_info {
+  width: 250px;
+  padding: 34px 0 0 20px;
+  line-height: 25px;
+  display: block;
+}
+.contents .main_course h2 {
+  font-size: 23px;
+  font-weight: bold;
+}
+.contents .main_course strong {
+  font-weight: 16px;
+  color: #e4010b;
+  font-weight: bold;
+}
+
+
+.cook2 {
+  background-color: white;
+  width: 290px;
+}
+
+.cook2 h2 {
+  color: #e4010b;
+  font-family: 'GmarketSansMedium';
+  padding: 34px 20px ;
+}
+
+/* contents_info */
+.cook2 .cook_name {
+  font-size: 23px;
+}
+
+.cook2 .cook_list{
+  font-family: 'GmarketSansMedium';
+  display: flex;
+  flex-flow: column;
+}
+
+.cook2 .cook_list li{
+  border-bottom: 1px solid #e4010b;
+ 
+}
+.cook2 .cook_list li a{
+  display: block;
+  padding: 20px;
+}
+
+.cook2 .cook_list li :hover{
+  background-color:  #e4010b;
+  color: white;
+}
+
+.cook2 p {
+  padding-left: 20px;
+  font-family: 'GmarketSansMedium';
+}
+
+/**** footer ****/
+footer {
+  background-color: #7d1e6a;
+  height: 35px;
+  font-family: 'GmarketSansMedium';
+  color: white;
+  line-height: 35px;
+  padding-left: 20px;
+}
